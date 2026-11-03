@@ -86,7 +86,7 @@ In a second terminal:
 ```bash
 cd frontend
 npm ci
-VITE_https://queueflow-api.vercel.app=http://localhost:8001 npm run dev   # http://localhost:5173
+VITE_API_URL=http://localhost:8001 npm run dev   # http://localhost:5173
 ```
 
 Tests need an empty PostgreSQL database:
