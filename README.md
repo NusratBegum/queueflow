@@ -9,7 +9,7 @@
 ![React 18](https://img.shields.io/badge/React_18-20232A?logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 
-**[Open the live front desk](LIVE_URL)** · [Join as a customer](LIVE_URL/#/q/siam-smile-dental) · [Waiting-room screen](LIVE_URL/#/display/siam-smile-dental) · [API docs](API_URL/docs)
+**[Open the live front desk](https://queueflow-demo.vercel.app)** · [Join as a customer](https://queueflow-demo.vercel.app/#/q/siam-smile-dental) · [Waiting-room screen](https://queueflow-demo.vercel.app/#/display/siam-smile-dental) · [API docs](https://queueflow-api.vercel.app/docs)
 Demo login: `demo@queueflow.dev` / `demo-queue-2026`
 
 ![Front desk: today's stats, the call-next button for your counter, the waiting list and who is being served](docs/front-desk.png)
@@ -20,8 +20,8 @@ Demo login: `demo@queueflow.dev` / `demo-queue-2026`
 
 ### Try it in a minute
 
-1. Open the [front desk](LIVE_URL) and press **Sign in** (the demo account is filled in).
-2. Open the [customer page](LIVE_URL/#/q/siam-smile-dental) on your phone or in another tab and join with your name. You get a number, the people ahead of you and an expected wait.
+1. Open the [front desk](https://queueflow-demo.vercel.app) and press **Sign in** (the demo account is filled in).
+2. Open the [customer page](https://queueflow-demo.vercel.app/#/q/siam-smile-dental) on your phone or in another tab and join with your name. You get a number, the people ahead of you and an expected wait.
 3. Back at the desk, press **Call next**. Switch counters and press it again. Your phone page turns green and buzzes when it's your turn.
 4. Mark people **Served** or **No-show** and watch today's stats update. If the queue runs empty, press **Add 5 sample walk-ins**.
 
@@ -86,7 +86,7 @@ In a second terminal:
 ```bash
 cd frontend
 npm ci
-VITE_API_URL=http://localhost:8001 npm run dev   # http://localhost:5173
+VITE_https://queueflow-api.vercel.app=http://localhost:8001 npm run dev   # http://localhost:5173
 ```
 
 Tests need an empty PostgreSQL database:
